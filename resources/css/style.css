@@ -4,12 +4,51 @@ body, html {
     background-color: black;
 }
 main {
+    display: block;
+    /* justify-items: center; */
 }
 
 main h1 {
+    display: block;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 50px;
     text-align: center;
+}
+
+main a {
+    display: block;
+    color: aquamarine;
+    font-size: 16px;
+    text-align: center;
+}
+
+main video {
+    display: block;
+    margin: 0px auto;
+}
+
+main h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+}
+
+p {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    margin: 15px auto;
+}
+
+footer p{
+    text-align: right;
 }
